@@ -1,0 +1,27 @@
+{
+  "name": "autodm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automação de DMs do Instagram: comentou a palavra-chave, recebe o link no direct.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.0",
+    "next": "^15.5.0",
+    "postgres": "^3.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
